@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.hero
+{
+    background: url(15.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.logo
+{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 15px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+li
+{
+    padding: 30px ;
+    list-style: none;
+    display: inline-block;
+}
+li a
+{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: .3s;
+}
+ul li a:hover
+{
+    transform: scale(1.1);
+}
+.menu
+{
+    margin-right: 20px;
+}
+button
+{
+    margin-right: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(255, 77, 77);
+    padding: 15px 30px;
+    transition: .4s;
+}
+button:hover
+{
+    transform: scale(1.1);
+}
+main h1
+{
+    font-size: 250px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    color: transparent;
+    background-image: url(https://media.giphy.com/media/KEJYmx1FLXJn2/giphy.gif?cid=790b7611akiqrkjfhh8jatu7sqz7hb0hp4m63g7fj11vse0a&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    background-position: center;
+    -webkit-background-clip: text;
+}
+main .goo{
+   margin-left: 40%;
+    
+}
+main img
+{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    top: 80px;
+    right: 30px;
+}
+article
+{
+    margin-top: 135px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 150, 150);
+    
+}
+article .product
+{
+    text-align: center;
+
+}
+article .box
+{
+    margin: 10px 15px ;
+    padding: 20px;
+    border: 2px solid black;
+    display: inline-block;
+    width: 260px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+article .box img
+{
+    width: 250px;
+    
+}
+article .box p,h2
+{
+    color: rgb(255, 125, 125);
+}
+aside 
+{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+aside section
+{
+    background-color: black;    
+    color: white;
+    padding: 15px;
+}
+aside section h1
+{
+    color: rgb(255, 105, 105);
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    display: inline;
+}
+aside section ul
+{
+    display: inline;
+    margin-left: 30%;
+    
+}
+aside section ul li
+{
+    color: brown;
+}
+
+aside .search input
+{   
+    width: 80%;
+    padding: 10px;
+    margin-top: 30px;
+}
+aside .search
+{
+    text-align: center;
+    padding: 10px;
+}
+.error
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#doo
+{
+    background-color: rgb(255, 121, 121);
+    color: black;
+}
+#doo h1
+{
+    padding: 15px;
+    color: white;
+    font-size: 35px;
+    font-family: monospace;
+    font-weight: 700;
+    text-align: center;
+}
+#doo ul
+{
+    text-align: center;
+}
+#doo li
+{
+    color: white;
+    font-size: 20px;
+    font-family:fantasy;
+}
+#why
+{   
+    background-color: white;
+   
+}
+#why .box
+{       
+    width: 260px;
+    border: 2px solid brown;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 7%;
+}
+#why .box img
+{
+    width: 250px;
+
+}
+.error .contact h1
+{
+    color: white;
+    text-align: center;
+}
+.error .contact table
+{
+    text-align: center;
+    margin-left: 40%;
+}
+.error .contact table tr td
+{
+    color: white;
+}
+.error .contact table tr td input
+{
+    padding: 5px;
+}
+.error .contact #sone
+{
+    margin: 10px;
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left:25%;
+}
+
